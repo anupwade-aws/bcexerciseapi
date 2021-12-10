@@ -1,4 +1,4 @@
-# TypeScript + Node + Docker (BC Test API dev env seup guide)
+# TypeScript + Node + Docker (BC Test API dev env setup guide)
 
 ## For running locally
 
