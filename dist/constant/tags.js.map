@@ -1,0 +1,1 @@
+{"version":3,"file":"tags.js","sourceRoot":"","sources":["../../src/constant/tags.ts"],"names":[],"mappings":";;AAAA,MAAM,IAAI,GAAG;IACT,cAAc,EAAE,gBAAgB;CACnC,CAAC;AAEF,kBAAe,IAAI,CAAC","sourcesContent":["const TAGS = {\n    UserController: 'UserController'\n};\n\nexport default TAGS;\n"]}

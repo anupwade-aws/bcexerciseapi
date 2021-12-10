@@ -1,0 +1,42 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${workspaceFolder}/app.js",
+            "skipFiles": [
+                "<node_internals>/**"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch DL",
+            "program": "${workspaceFolder}/data/dl.js",
+            "skipFiles": [
+                "<node_internals>/**"
+            ]
+        },
+        {
+            "name": "TS Node",
+            "type": "node",
+            "request": "launch",
+            "preLaunchTask": "typescript",
+            "program": "${workspaceFolder}/src/index.ts",
+            "cwd": "${workspaceRoot}",
+            "protocol": "inspector",
+            "console": "externalTerminal",
+            "outputCapture": "std",
+            "internalConsoleOptions": "openOnSessionStart",
+            "runtimeArgs": [
+                "--preserve-symlinks",
+                "--preserve-symlinks-main"
+            ],
+            "outFiles": [
+                "${workspaceFolder}/dist/**/*.js"
+            ]
+        }
+    ]
+}
