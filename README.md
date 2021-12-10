@@ -1,8 +1,8 @@
-# TypeScript + Node + Docker (with code hot-reloading in the container)
+# TypeScript + Node + Docker (BC Test API dev env seup guide)
 
 ## For running locally
 
-`npm i`
+`npm install`
 
 ### Start the dev server
 
