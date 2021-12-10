@@ -15,6 +15,6 @@ server.setConfig((app) => {
     app.use(bodyParser.json());
 });
 let serverInstance = server.build();
-serverInstance.listen(3000);
-console.log("Server started on port 3000 :)");
+serverInstance.listen(8000);
+console.log("Server started on port 8000 :)");
 //# sourceMappingURL=index.js.map

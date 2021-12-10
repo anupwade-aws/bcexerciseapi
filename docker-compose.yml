@@ -10,7 +10,7 @@ services:
       - ./src:/home/node/app/src
     container_name: bcexerciseapi
     expose:
-      - '3000'
+      - '8000'
     ports:
-      - '3000:3000'
+      - '8000:8000'
     command: npm run start:watch
